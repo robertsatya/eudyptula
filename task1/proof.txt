@@ -1,0 +1,10 @@
+[   37.695785] type=1400 audit(1410965083.696:19): apparmor="STATUS" operation="profile_load" name="/usr/lib/lightdm/lightdm/lightdm-guest-session-wrapper" pid=1087 comm="apparmor_parser"
+[   38.488661] init: lightdm main process (1207) killed by TERM signal
+[   39.238410] IPv6: ADDRCONF(NETDEV_UP): eth2: link is not ready
+[   44.834508] postgres (1444): /proc/1444/oom_adj is deprecated, please use /proc/1444/oom_score_adj instead.
+[   51.279531] init: plymouth-stop pre-start process (1954) terminated with status 1
+[   68.647185] audit_printk_skb: 30 callbacks suppressed
+[   68.647191] type=1400 audit(1410965114.668:30): apparmor="DENIED" operation="capable" parent=1 profile="/usr/sbin/cupsd" pid=953 comm="cupsd" pid=953 comm="cupsd" capability=36  capname="block_suspend"
+[  358.617076] type=1400 audit(1410965404.812:31): apparmor="DENIED" operation="capable" parent=1 profile="/usr/sbin/cupsd" pid=953 comm="cupsd" pid=953 comm="cupsd" capability=36  capname="block_suspend"
+[  193.384313] Hello World!
+[  463.660313] Hello World!
