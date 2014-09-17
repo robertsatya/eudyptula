@@ -3,6 +3,7 @@ cmd_/home/user/code/eudyptula/task1/hello.mod.o := gcc -Wp,-MD,/home/user/code/e
 source_/home/user/code/eudyptula/task1/hello.mod.o := /home/user/code/eudyptula/task1/hello.mod.c
 
 deps_/home/user/code/eudyptula/task1/hello.mod.o := \
+    $(wildcard include/config/module/unload.h) \
   include/linux/module.h \
     $(wildcard include/config/sysfs.h) \
     $(wildcard include/config/modules.h) \
@@ -14,7 +15,6 @@ deps_/home/user/code/eudyptula/task1/hello.mod.o := \
     $(wildcard include/config/tracing.h) \
     $(wildcard include/config/event/tracing.h) \
     $(wildcard include/config/ftrace/mcount/record.h) \
-    $(wildcard include/config/module/unload.h) \
     $(wildcard include/config/constructors.h) \
     $(wildcard include/config/debug/set/module/ronx.h) \
   include/linux/list.h \
