@@ -1,0 +1,10 @@
+[   32.287473] wlan0: send auth to 8c:a9:82:5e:5d:8d (try 1/3)
+[   32.289334] wlan0: authenticated
+[   32.290031] wlan0: associate with 8c:a9:82:5e:5d:8d (try 1/3)
+[   32.292467] wlan0: RX AssocResp from 8c:a9:82:5e:5d:8d (capab=0x8431 status=0 aid=8)
+[   32.292606] IPv6: ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+[   32.292679] wlan0: associated
+[  427.460040] hello: module license 'unspecified' taints kernel.
+[  427.460048] Disabling lock debugging due to kernel taint
+[  427.460416] Hello World!
+[  817.543792] Hello World!
