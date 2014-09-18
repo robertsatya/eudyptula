@@ -1,2 +1,2 @@
-/home/harsha/Projects/kernel/eudyptula/task1/hello.ko
-/home/harsha/Projects/kernel/eudyptula/task1/hello.o
+/home/user/code/eudyptula/task1/hello.ko
+/home/user/code/eudyptula/task1/hello.o
