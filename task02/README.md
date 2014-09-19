@@ -7,13 +7,13 @@ Now that you have written your first kernel module, it's time to take
  kernel.  And use git!  Exciting, isn't it?  No?  Oh, ok...
 
  The tasks for this round are:
-   - Download Linus's latest git tree from git.kernel.org (you have to
+   * Download Linus's latest git tree from git.kernel.org (you have to
      figure out which one is his.  It's not that hard, just remember what
      his last name is and you should be fine.)
-   - Build it, install it, and boot it.  You can use whatever kernel
+   * Build it, install it, and boot it.  You can use whatever kernel
      configuration options you wish to use, but you must enable
      CONFIG_LOCALVERSION_AUTO=y.
-   - Show proof of booting this kernel.  Bonus points if you do it on a
+   * Show proof of booting this kernel.  Bonus points if you do it on a
      "real" machine, and not a virtual machine (virtual machines are
      acceptable, but come on, real kernel developers don't mess around
      with virtual machines, they are too slow.  Oh yeah, we aren't real
