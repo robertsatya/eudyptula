@@ -17,6 +17,3 @@ the Makefile you created to build the module.
 Remember to use your ID assigned in the Subject: line when responding to
 this task, so that I can figure out who to attribute it to.  You can
 just respond to the task with the answers and all should be fine.
-
-If you forgot, your id is "325dcb6e9cfe".  But of course you have not
-forgotten that yet, you are better than that.
