@@ -1,0 +1,10 @@
+[    0.000000] Initializing cgroup subsys cpuset
+[    0.000000] Initializing cgroup subsys cpu
+[    0.000000] Initializing cgroup subsys cpuacct
+[    0.000000] Linux version 3.17.0-eudyptula-00063-gd9773ce-dirty (user@user) (gcc version 4.6.3 (Ubuntu/Linaro 4.6.3-1ubuntu5) ) #2 SMP Mon Sep 22 11:18:49 IST 2014
+[    0.000000] Command line: BOOT_IMAGE=/vmlinuz-3.17.0-eudyptula-00063-gd9773ce-dirty root=UUID=11597633-5608-43a3-988a-6f0de23e64a6 ro quiet splash vt.handoff=7
+[    0.000000] KERNEL supported cpus:
+[    0.000000]   Intel GenuineIntel
+[    0.000000]   AMD AuthenticAMD
+[    0.000000]   Centaur CentaurHauls
+[    0.000000] e820: BIOS-provided physical RAM map:

@@ -1,0 +1,13 @@
+diff --git a/Makefile b/Makefile
+index 036b733..c6e6859 100644
+--- a/Makefile
++++ b/Makefile
+@@ -1,7 +1,7 @@
+ VERSION = 3
+ PATCHLEVEL = 17
+ SUBLEVEL = 0
+-EXTRAVERSION = -rc5
++EXTRAVERSION = -eudyptula
+ NAME = Shuffling Zombie Juror
+ 
+ # *DOCUMENTATION*
