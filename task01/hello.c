@@ -4,13 +4,13 @@
 
 static int __init init_mod(void)
 {
-        printk(KERN_DEBUG "Hello World!");
-        return 0;
+	pr_debug("Hello World!");
+	return 0;
 }
 
-static void __exit 	clean_mod(void)
+static void __exit clean_mod(void)
 {
-        return;
+
 }
 
 module_init(init_mod);
