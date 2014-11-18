@@ -11,6 +11,7 @@ when any USB keyboard is plugged in, the module will be
 automatically loaded by the correct userspace hotplug tools (which
 are implemented by depmod / kmod / udev / mdev / systemd, depending
 on what distro you are using.)
+
 *Again, provide "proof" this all works.
 
 Yes, so simple, and yet, it's a bit tricky.  As a hint, go read chapter
