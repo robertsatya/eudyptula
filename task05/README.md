@@ -12,7 +12,7 @@ automatically loaded by the correct userspace hotplug tools (which
 are implemented by depmod / kmod / udev / mdev / systemd, depending
 on what distro you are using.)
 
-*Again, provide "proof" this all works.
+* Again, provide "proof" this all works.
 
 Yes, so simple, and yet, it's a bit tricky.  As a hint, go read chapter
 14 of the book, "Linux Device Drivers, 3rd edition."  Don't worry, it's
