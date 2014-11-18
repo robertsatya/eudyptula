@@ -1,6 +1,6 @@
 #include <linux/module.h>
 #include <linux/kernel.h>
-#include <asm/delay.h>
+#include <linux/delay.h>
 #include <linux/slab.h>
 
 int do_work(int *my_int, int retval)
@@ -9,13 +9,12 @@ int do_work(int *my_int, int retval)
 	int y = *my_int;
 	int z;
 
-	for (x = 0; x < *my_int; ++x) {
+	for (x = 0; x < *my_int; ++x)
 		udelay(10);
-	}
 
 	if (y < 10)
 		/* That was a long sleep, tell userspace about it */
-		printk("We slept a long time!");
+		pr_debug("We slept a long time!");
 
 	z = x * y;
 

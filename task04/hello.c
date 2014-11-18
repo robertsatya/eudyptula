@@ -5,7 +5,7 @@ MODULE_LICENSE("GPL");
 
 int init_module(void)
 {
-	printk(KERN_DEBUG "Hello World!");
+	pr_debug("Hello World!");
 	return 0;
 }
 
